@@ -8,12 +8,10 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='main'>
         <h2>Counter App</h2>
-
           Count:  {count}
           <div>
-
         <button onClick={() => setCount((count) => count + 1)}>
           Increment
         </button>
